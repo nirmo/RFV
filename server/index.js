@@ -10,7 +10,7 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
     cors: {
-        origin: "http://192.168.2.6:3000",
+        origin: "http://localhost:3000",
     },
 });
 
